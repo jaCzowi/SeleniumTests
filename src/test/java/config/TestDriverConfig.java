@@ -22,7 +22,8 @@ public class TestDriverConfig {
 
 
     @AfterMethod
-    public void closeWebDriver() {
+    public void closeWebDriver() throws InterruptedException {
+        Thread.sleep(500);
         webDriver.close();
     }
 }
