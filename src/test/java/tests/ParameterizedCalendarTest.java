@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 
 
 /**
- * Parameterized test for Calendar example  with data-picker.
+ * Parameterized test for Calendar example  with datepicker.
  *
- * @see <a href="https://jqueryui.com/droppable/">D'n'D example</a>
+ * @see <a href="http://jqueryui.com/datepicker/">DatePicker</a>
  * Configuration class for driver {@link  config.TestDriverConfig}
  */
 public class ParameterizedCalendarTest extends TestDriverConfig {

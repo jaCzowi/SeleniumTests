@@ -8,6 +8,12 @@ import org.testng.annotations.Test;
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Parameterized test for Calendar based on complex solution. 
+ *
+ * @see <a href="http://jqueryui.com/datepicker/">DatePicker</a>
+ * Configuration class for driver {@link  config.TestDriverConfig}
+ */
 public class ComplexParametrizedCalendarTest extends TestDriverConfig {
 
 
